@@ -1,0 +1,1 @@
+l = gets.chomp; p (gets.chomp).split("").select{|i| i != l}.join("")
